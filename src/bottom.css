@@ -1,0 +1,38 @@
+.bottom .title{
+    color: #333333;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .bottom p.txt{
+    color: #333333;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .bottom p.lbl{
+    color: #888888;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 12px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .bottom .excelent {
+    color: #fff;
+    text-align: center;
+    background-color: #007a3d;
+    text-transform: uppercase;
+    padding:2px 13px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: center;
+  }

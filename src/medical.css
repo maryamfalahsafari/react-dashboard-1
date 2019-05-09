@@ -1,0 +1,105 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: #f5f5f5;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-left: 6px solid #A4219B;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .right{
+    flex-basis: 51%;
+    padding:10px;
+
+  }
+  .right .container-fluid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding:0;
+
+  }
+  .right .container-fluid div{
+   flex-basis: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+
+
+  }
+  .right .container-fluid div span.lbl {
+    color: #888888;
+    text-align: left;
+    flex-basis: 50%;
+    white-space: nowrap;
+  }
+
+  .right .container-fluid div  span.approve{
+    text-align: right;
+    flex-basis: 50%;
+    color:#678004
+    
+  }
+  .right .container-fluid div  span.reject{
+    text-align: right;
+    flex-basis: 50%;
+    color:#D81E05
+    
+  }
+
+
+  .left{
+    flex-basis: 49%;
+    border-right: 1px solid #DDDDDD;
+    padding:10px;
+
+  }
+  .left .container-fluid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding:0;
+
+  }
+  .left .container-fluid div{
+   flex-basis: 100%;
+   display: flex;
+   flex-direction: row;
+
+  }
+  .left .container-fluid div span.head {
+    color: #333333;
+    text-align: left;
+    flex-basis: 50%;
+    font-size: 16px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+
+  }
+
+  .left .container-fluid div  .chk{
+    text-align: right;
+    flex-basis: 50%;
+    color:#678004
+    
+  }
+
+  .left .container-fluid div span.lbl {
+    color: #888888;
+    text-align: left;
+    flex-basis: 50%;
+    white-space: nowrap;
+
+  }
+
+  .left .container-fluid div  span.txt{
+    text-align: right;
+    flex-basis: 50%;
+    color:#333333;
+    
+  }

@@ -1,0 +1,125 @@
+
+.anatomy{
+    /* border: 1px solid #000; */
+    /* max-width: 143px; */
+    position: relative;
+}
+.anatomy .info-1 {
+    color: #fff;
+    text-align: center;
+    background-color: #A4219B;
+    text-transform: uppercase;
+    padding:2px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: center;
+  }
+
+  .anatomy .info-2 {
+    color: #fff;
+    text-align: center;
+    background-color: #008385;
+    text-transform: uppercase;
+    padding:2px 12px;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: center;
+  }
+
+  .anatomy .info-3 {
+    color: #fff;
+    text-align: center;
+    background-color: #e60e68;
+    text-transform: uppercase;
+    padding:2px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: absolute;
+    top: 2%;
+    left: 70px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: center;
+  }
+
+  .anatomy .info-4 {
+    color: #fff;
+    text-align: center;
+    background-color: #ed7102;
+    text-transform: uppercase;
+    padding:2px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: absolute;
+    top: 22%;
+    left: 80px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: center;
+  }
+  .anatomy .info-5 {
+    color: #fff;
+    text-align: center;
+    background-color: #333333;
+    text-transform: uppercase;
+    padding:2px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: absolute;
+    top: 27%;
+    left: 80px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: center;
+  }
+
+  .anatomy-info p.lbl{
+    color: #888888;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .anatomy-info p.lbl_, span.lbl_{
+    color: #333333;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .anatomy-info p.txt{
+    color: #0079c8;
+    font-size: 20px;
+    font-weight: 435;
+    line-height: 14px;
+    width: 100px;
+    text-align: left;
+  }
+
+  .anatomy-info p.danger{
+    color: #d81e05;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 100px;
+    text-align: left;
+    margin-top: 10px;
+  }

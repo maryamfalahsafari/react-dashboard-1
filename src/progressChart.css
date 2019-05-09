@@ -1,0 +1,17 @@
+.div1 {
+    width: 90%;
+    height: 6px;
+    background-color: #eeeeee;
+    margin-left: 15px;
+
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .div2 {
+
+    height: 100%;
+    background-color: #0079c8;
+    border-radius: 5px;
+
+  }
