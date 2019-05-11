@@ -10,6 +10,7 @@ import MedicalConstsByProvider from './MedicalConstsByProvider';
 import MedicalConstsByCategory from './MedicalConstsByCategory';
 import ClaimServiceTypeConsumptions from './ClaimServiceTypeConsumptions';
 import Bottom from './Bottom';
+import Test from './Test';
 
 function App() {
   return (
@@ -17,6 +18,12 @@ function App() {
       <div className="row">
         <div className="col-md-12">
           {/* <Header/> */}
+
+
+<Test/>
+
+
+
         </div>
       </div>
       <div className="row">

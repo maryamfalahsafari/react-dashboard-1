@@ -7,8 +7,8 @@ const MedicalConst = () => {
         chart: {
             renderTo: 'pieChart',
             type: 'pie',
-            height: 250,
-            margin: [0, 0, 0, 0]
+            height: 300,
+           // margin: [0, 0, 0, 0]
         },
         colors: ['#A4219B', '#008385', '#e60e68', '#ed7102', '#333333'],
         title: {
