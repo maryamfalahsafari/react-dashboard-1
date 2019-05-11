@@ -1,21 +1,29 @@
-.chart1{
+.benefit-consumption{
     position: relative;
+    background-color: red;
 }
 
-.benefit-consumption p.lbl, span.lbl{
+.benefit-consumption .content p.lbl, span.lbl{
     color: #888888;
     font-size: 12px;
     font-weight: 300;
-    line-height: 14px;
+    line-height: 12px;
     text-align: left;
     margin-bottom: 10px;
   }
 
-  .benefit-consumption p.txt{
+  .benefit-consumption .content p.txt{
     color: #0079c8;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 14px;
-    width: 100px;
-    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 10px;
+    text-align: center;
+  }
+
+
+ .benefit-consumption .content{
+    min-height:  20px;
+     position: absolute;
+      top: 40%;
+       left: 26%;
   }

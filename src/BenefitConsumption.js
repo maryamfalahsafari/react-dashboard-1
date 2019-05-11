@@ -7,7 +7,7 @@ const BenefitConsumption = () => {
         chart: {
             renderTo: 'chart1',
             type: 'pie',
-            height: 150,
+            height: 170,
             margin: [0, 0, 0, 0]
         },
         colors: ['#0079c8', '#dbf1fa'],
@@ -32,19 +32,19 @@ const BenefitConsumption = () => {
         series: [{
             name: 'Browsers',
             data: [["A", 6], ["B", 4]],
-            size: '80%',
+            size: '90%',
             innerSize: '80%',
             showInLegend: false,
 
         }]
     };
     return (
-        <div id="chart1" className="benefit-consumption">
+        <div className="benefit-consumption">
             <Chart options={pieChart} />
-            {/* <div style={{ minHeight: '20px', position: 'absolute', top: '40%', left: '30%' }}>
+            <div className="content">
                 <p className="lbl"> Amount Consumed</p>
                 <p className="txt"> SAR 120,000</p>
-            </div> */}
+            </div>
         </div>
     );
 }

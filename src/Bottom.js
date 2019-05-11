@@ -1,5 +1,6 @@
 import React from 'react';
 import './bottom.css';
+import Test from './Test';
 
 const Bottom = () => {
     return (<div className="container-fluid bottom"
@@ -39,7 +40,9 @@ const Bottom = () => {
                     </div>
                 </div>
             </div>
-            <div className="col-md-10"></div>
+            <div className="col-md-10">
+                <Test/>
+            </div>
         </div>
     </div>
     )

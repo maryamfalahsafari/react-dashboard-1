@@ -1,0 +1,43 @@
+.benefitConsumptions{
+  display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+}
+
+.benefitConsumptions .left-arrow{
+  margin-top: auto;
+   margin-bottom: auto;
+   cursor: pointer;
+
+}
+
+.benefitConsumptions .right-arrow{
+  margin-top: auto;
+   margin-bottom: auto;
+    margin-left: 25px;
+   cursor: pointer;
+
+}
+
+.a {
+    width: 100%;
+    height: 155px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
+  .b {
+    width: 100%;
+    height: 190px;
+    overflow-x: scroll;
+  
+  }
+  
+  .c {
+    width: 1400px;
+    height: 155px;
+    /* background: linear-gradient(to bottom, #f0b7a1,#752201);
+    border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+  }

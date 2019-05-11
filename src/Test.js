@@ -44,9 +44,11 @@ class Test extends Component {
             chart: {
                 renderTo: 'container',
                 type: 'scatter',
-                height: '500',
-                width: '800'
+                height: '300',
 
+            },
+            credits:{
+                enabled:false
             },
             xAxis: {
                 // min: Date.UTC(2000, 9, 27),
