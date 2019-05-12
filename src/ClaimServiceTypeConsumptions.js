@@ -4,7 +4,7 @@ import './claimServiceTypeConsumptions.css'
 
 const ClaimServiceTypeConsumptions = () => {
     return (<div className="claimServiceTypeConsumptions" >
-        <div className="header">
+        <div className="header-part">
             <div className="col-md-12 col-sm-12 col-xs-12">
                 <div className="title">Claims - Service Type Consumption</div>
                 <div>More Details</div>

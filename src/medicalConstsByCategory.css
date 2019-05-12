@@ -6,18 +6,18 @@
        margin-top: 15px;
 }
 
-.medicalConstsByCategory .header{
+.medicalConstsByCategory div.header-part{
     padding-top: 20px;
      padding-bottom: 15px;
       line-height: 12px 
 }
 
-.medicalConstsByCategory .header div{
+.medicalConstsByCategory div.header-part div{
     display: flex;
      justify-content: space-between
 }
 
-.medicalConstsByCategory .header .title{
+.medicalConstsByCategory div.header-part .title{
     font-size: 12px;
      font-weight: 700;
 }

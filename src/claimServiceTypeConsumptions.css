@@ -6,18 +6,18 @@
        margin-top: 15px;
 }
 
-.claimServiceTypeConsumptions .header{
+.claimServiceTypeConsumptions div.header-part{
     padding-top: 20px;
      padding-bottom: 15px;
       line-height: 12px 
 }
 
-.claimServiceTypeConsumptions .header div{
+.claimServiceTypeConsumptions div.header-part div{
     display: flex;
      justify-content: space-between
 }
 
-.claimServiceTypeConsumptions .header .title{
+.claimServiceTypeConsumptions div.header-part .title{
     font-size: 12px;
      font-weight: 700;
 }
