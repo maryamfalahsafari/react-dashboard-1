@@ -1,0 +1,15 @@
+ .highcharts-input-group{
+    visibility:hidden !important;
+}
+
+.highcharts-xaxis-labels{
+    /* visibility: hidden; */
+}
+
+.highcharts-tick{
+    /* visibility: hidden; */
+}
+.highcharts-navigator-xaxis{
+    visibility:visible !important ;
+}
+
